@@ -1,0 +1,18 @@
+﻿ d.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:C__Sprint1_Mastermind"
+        mc:Ignorable="d"
+        Title="Mastermind" Height="450" Width="800"><Window.Background>
+    <ImageBrush ImageSource="Rainbow.jpg" />
+</Window.Background>
+<Grid>
+    <ComboBox  x:Name="comboBox1" Height="40" Width="200" Margin="1,7,599,387" SelectionChanged="ComboBoxSelection" IsEditable="False"/>
+    <ComboBox  x:Name="comboBox2" HorizontalAlignment="Left" Height="40" Margin="202,7,0,0" VerticalAlignment="Top" Width="200" SelectionChanged="ComboBoxSelection" IsEditable="False"  />
+    <ComboBox  x:Name="comboBox3" HorizontalAlignment="Left" Height="40" Margin="403,7,0,0" VerticalAlignment="Top" Width="200" SelectionChanged="ComboBoxSelection" IsEditable="False"/>
+    <ComboBox  x:Name="comboBox4" HorizontalAlignment="Left" Height="40" Margin="603,7,0,0" VerticalAlignment="Top" Width="200" SelectionChanged="ComboBoxSelection" IsEditable="False"/>
+    <Button  Content="Check code" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="400" Click="Button_Click"  />
+    <Label x:Name="showColor" HorizontalAlignment="Left" Margin="314,190,0,0" VerticalAlignment="Top" Width="180" RenderTransformOrigin="0.593,0.591" FontSize="22" FontWeight="Bold" Height="41"/>
+    <TextBox x:Name="toggleTextBox" HorizontalAlignment="Left" Height="41" Margin="613,393,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" />
